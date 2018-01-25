@@ -1,0 +1,21 @@
+.block-1 .icon-block {
+  height: 450px;
+  padding: 80px 0;
+}
+.icon-block {
+  width: 80%;
+  margin: auto;
+}
+.icon-block h3 {
+  font-size: 48px;
+  line-height: 1em;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.row {
+  margin-bottom: 0;
+}
+.row .col {
+    padding: 0 0;
+}

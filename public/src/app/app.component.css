@@ -1,0 +1,32 @@
+.input-field label,
+.input-field input[type=text]:focus + label,
+.input-field input[type=text]:focus,
+.input-field input[type=email]:focus + label,
+.input-field input[type=email]:focus
+.input-field textarea:focus + label,
+.input-field textarea:focus {
+ color: #ffc107;
+}
+.contact-us h4 {
+  font-size: 48px;
+  line-height: 1em;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-links {
+  padding: 30px;
+}
+.footer-links h5 {
+  font-size: 24px;
+  line-height: 1em;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.footer-links p {
+  margin: 0 0 3px;
+}
+.footer-links a:hover {
+  text-decoration: underline;
+}

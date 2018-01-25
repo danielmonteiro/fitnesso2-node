@@ -1,0 +1,100 @@
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <a routerLink="" class="brand-logo black-text"><img src="assets/img/logotipo-fitness-o2.jpg" alt="Logotipo Fitness O2" style="margin-top: 3px; width: 75px;"></a>
+    <ul class="right hide-on-med-and-down">
+      <li><a routerLink="" class="black-text">Home 1</a></li>
+      <li><a routerLink="sobre-nos" class="black-text">Sobre nós</a></li>
+      <li><a [routerLink]="['localizacao']" class="black-text">Localização</a></li>
+    </ul>
+
+    <ul id="nav-mobile" class="side-nav">
+      <li><a routerLink="" class="black-text">Home 1</a></li>
+      <li><a routerLink="sobre-nos" class="black-text">Sobre nós</a></li>
+      <li><a [routerLink]="['localizacao']" class="black-text">Localização</a></li>
+    </ul>
+    <a href="#" data-activates="nav-mobile" class="button-collapse" materialize="sideNav" [materializeParams]="[{closeOnClick:true}]"><i class="material-icons black-text">menu</i></a>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="page-footer grey darken-3">
+  <div class="container">
+    <div class="center contact-us grey-text text-lighten-2">
+      <h4>Contact <span class="amber-text">us</span></h4>
+    </div>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name" class="active">Nome</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email" class="active">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="phone" type="text" class="validate">
+            <label for="phone" class="active">Telefone</label>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message" class="active">Mensagem</label>
+              </div>
+            </div>
+        </div>
+
+        <div class="center">
+          <button class="btn amber waves-effect waves-light" type="submit" name="action">Enviar
+            <i class="material-icons right">send</i>
+          </button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+  <div class="amber footer-links">
+    <div class="container grey-text text-darken-3" style="padding: 0 15px;">
+      <div class="row">
+        <div class="col s3 push-s1 m2 push-m3 l1 push-l5">
+          <a href="https://api.whatsapp.com/send?l=pt&phone=5512988001234" target="_blank"><img src="assets/img/whatsapp.png" style="width: 100%"></a>
+        </div>
+        <div class="col s3 push-s1 m2 push-m3 l1 push-l5">
+          <a href="https://www.facebook.com/studiofitnesso2/" target="_blank"><img src="assets/img/facebook.png" style="width: 100%"></a>
+        </div>
+        <div class="col s3 push-s1 m2 push-m3 l1 push-l5">
+          <a href="https://www.instagram.com/studiofitnesso2/" target="_blank"><img src="assets/img/instagram.png" style="width: 100%"></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l4">
+          <h5>Services</h5>
+          <p><a href="#" class="grey-text text-darken-4">Link 1</a></p>
+          <p><a href="#" class="grey-text text-darken-4">Link 2</a></p>
+          <p><a href="#" class="grey-text text-darken-4">Link 3</a></p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h5>Info</h5>
+          <p><a href="#" class="grey-text text-darken-4">Link 1</a></p>
+          <p><a href="#" class="grey-text text-darken-4">Link 2</a></p>
+          <p><a href="#" class="grey-text text-darken-4">Link 3</a></p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h5>Studio Fitness</h5>
+          <p><a href="#" class="grey-text text-darken-4">Link 1</a></p>
+          <p><a href="#" class="grey-text text-darken-4">Link 2</a></p>
+          <p><a href="#" class="grey-text text-darken-4">Link 3</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
